@@ -1,6 +1,6 @@
 # Padrões de Portugol
 
-Repositório voltado a discutir padrões de linguagem do Portugol.
+Repositório voltado a discutir padrões des linguagens da família Portugol.
 
 ## Motivação
 
