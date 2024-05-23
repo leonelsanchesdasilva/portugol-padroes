@@ -1,0 +1,359 @@
+{"0": {
+    "doc": "Atribuição",
+    "title": "Atribuição",
+    "content": "O operador de atribuição tem como função definir valores para variáveis declaradas no escopo do programa. Há pouco consenso sobre como esses operadores devem ser em Portugol. Nas implementações do Portugol IDE e VisualG, o operador de atribuição é o sinal de menor (&lt;) seguido de hífen (-), formando uma seta da direita para a esquerda (&lt;-). O VisualG também aceita o mesmo operador do Delphi para atribuição, um sinal de dois-pontos seguido de igual (:=). Nas implementações do Portugol Studio e em alguns compiladores de Portugol, o operador de atribuição é o símbolo de igual (=). No VisualG, variáveis não podem ser inicializadas no momento da declaração. No Portugol IDE e Portugol Studio, as variáveis podem. No VisualG, apenas uma variável pode ser atribuída por linha. Ainda que uma construção como: . var a, b: inteiro inicio a &lt;- 2, b &lt;- 4 escreva(a, b) . não apresente erros na hora de executar, ao imprimir, o resultado será: . 2 0 . No Portugol Studio e Portugol IDE, não há esse tipo de restrição. ",
+    "url": "/docs/expressoes/atribuicao.html",
+    
+    "relUrl": "/docs/expressoes/atribuicao.html"
+  },"1": {
+    "doc": "Atribuição",
+    "title": "Exemplos",
+    "content": "Portugol IDE . inteiro numero numero &lt;- 10 inteiro n1 &lt;- 1, n2 &lt;- 2, n3 &lt;- 3 . VisualG . var numero: inteiro n1, n2, n3: inteiro inicio numero := 10 n1 &lt;- 1 n2 := 2 n3 &lt;- 3 . Portugol Studio . inteiro numero numero = 10 inteiro n1 = 1, n2 = 2, n3 = 3 . ",
+    "url": "/docs/expressoes/atribuicao.html#exemplos",
+    
+    "relUrl": "/docs/expressoes/atribuicao.html#exemplos"
+  },"2": {
+    "doc": "Operações de Entrada e Saída",
+    "title": "Operações de Entrada e Saída",
+    "content": "Partes fundamentais para a utilidade de um programa, as operações de entrada e saída são da interface entre o código e o ser humano. No estudo de programação, usa-se um dispositivo bastante simples de entrada e saída chamado de console: basicamente, uma janela que lê e escreve texto. Em Portugol, as instruções de entrada e saída podem usar verbos no infinitivo (Portugol IDE) ou imperativo (VisualG e Portugol Studio). O radical (a parte do verbo que não muda) é o mesmo para todas as versões. ",
+    "url": "/docs/entrada-e-saida/entrda-e-saida.html",
+    
+    "relUrl": "/docs/entrada-e-saida/entrda-e-saida.html"
+  },"3": {
+    "doc": "Operações de Entrada e Saída",
+    "title": "Escrever / Escreva / Escreval",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | escreva | Válida | Inválida | Inválida | . | escreval | Inválida | Válida | Inválida | . | escrever | Inválida | Inválida | Válida | . escreva (Portugol Studio), escreval (VisualG) ou escrever (Portugol IDE) é uma função que recebe n argumentos separados por vírgula, sendo cada argumento uma cadeia de caracteres, e o escreve - ou imprime - no console. As versões do Portugol Studio e Portugol IDE aceitam algumas sequências especiais - ou sequências de escape, no jargão de programação - para modificar o texto, como quebra de linha (\\n) e tabulação (\\t). Exemplos . Portugol Studio . escreva(\"Olá Mundo!\") escreva(\"Olá Mundo!\", \"Teste!\") escreva(\"Olá Mundo!\", \"\\nTeste!\") escreva(\"Olá Mundo!\", \"\\t\", \"Teste!\") . Resultado em Console: . Olá Mundo!Olá Mundo!Teste!Olá Mundo! Teste!Olá Mundo! Teste! . Portugol IDE . escrever \"Olá Mundo!\" escrever \"Olá Mundo!\", \"Teste!\" escrever \"Olá Mundo!\", \"\\nTeste!\" escrever \"\\t\", \"Olá Mundo!\", \"\\nTeste!\" . Resultado em Console: . Olá Mundo!Olá Mundo!Teste!Olá Mundo! Teste! Olá Mundo! Teste! . ",
+    "url": "/docs/entrada-e-saida/entrda-e-saida.html#escrever--escreva--escreval",
+    
+    "relUrl": "/docs/entrada-e-saida/entrda-e-saida.html#escrever--escreva--escreval"
+  },"4": {
+    "doc": "Operações de Entrada e Saída",
+    "title": "Ler / Leia",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | leia | Válida | Válida | Inválida | . | ler | Inválida | Inválida | Válida | . leia (Portugol Studio e VisualG), ou ler (Portugol IDE) é uma função que recebe n argumentos separados por vírgula, sendo cada um dos argumentos uma variável já declarada anteriormente no código do programa, e pede ao usuário em console que as defina. Ao informar os valores das variáveis, o usuário deve separá-las por espaço. Exemplos . Portugol Studio . inteiro a, b, c leia(a) leia(b, c) escreva(a) escreva(b) escreva(c) . Portugol IDE . inteiro a, b, c ler a ler b, c escrever a escrever b escrever c . ",
+    "url": "/docs/entrada-e-saida/entrda-e-saida.html#ler--leia",
+    
+    "relUrl": "/docs/entrada-e-saida/entrda-e-saida.html#ler--leia"
+  },"5": {
+    "doc": "Estrutura de Dados",
+    "title": "Variáveis",
+    "content": "Variáveis são as primeiras estruturas de dados que todo programador aprende. São caracterizadas por ter um nome e armazenar um valor em memória. Cada dialeto de Portugol tem sua maneira particular de enunciar variáveis. No Portugol IDE e no Portugol Studio, variáveis podem ser declaradas a qualquer momento no código do programa. Já no VisualG, a declaração se dá após a palavra reservada var, no começo do programa. Para declarar variáveis no Portugol Studio e no Portugol IDE, o começo da linha deve ter o tipo de dados desejado seguido pela(s) variável(is) que se deseja declarar. ",
+    "url": "/docs/estrutura/estrutura.html#vari%C3%A1veis",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#variáveis"
+  },"6": {
+    "doc": "Estrutura de Dados",
+    "title": "Exemplos de Declaração de Variáveis",
+    "content": " ",
+    "url": "/docs/estrutura/estrutura.html#exemplos-de-declara%C3%A7%C3%A3o-de-vari%C3%A1veis",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#exemplos-de-declaração-de-variáveis"
+  },"7": {
+    "doc": "Estrutura de Dados",
+    "title": "Portugol Studio e Portugol IDE",
+    "content": "inteiro n1 real r1, r2, r3 . ",
+    "url": "/docs/estrutura/estrutura.html#portugol-studio-e-portugol-ide",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#portugol-studio-e-portugol-ide"
+  },"8": {
+    "doc": "Estrutura de Dados",
+    "title": "Portugol IDE",
+    "content": "variavel inteiro n1 variavel real r1, r2, r3 . ",
+    "url": "/docs/estrutura/estrutura.html#portugol-ide",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#portugol-ide"
+  },"9": {
+    "doc": "Estrutura de Dados",
+    "title": "VisualG",
+    "content": "Var n1: inteiro r1, r2, r3: real . Declaradas as variáveis, seus valores podem ser mudados durante o restante do código. Importante dizer que a variável existe depois da declaração: nunca antes. Se houver o uso da variável antes da declaração, o compilador deve apontar um erro. Para mudar o valor de uma variável, usa-se o operador de atribuição. ",
+    "url": "/docs/estrutura/estrutura.html#visualg",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#visualg"
+  },"10": {
+    "doc": "Estrutura de Dados",
+    "title": "Exemplos de Atribuição de Valores a Variáveis",
+    "content": "Portugol IDE . inteiro numero numero &lt;- 10 escrever numero // Deverá escrever '10' no console numero &lt;- numero + 30 escrever numero // Deverá escrever '40' no console . VisualG . var numero: inteiro inicio numero := 10 escreva(numero) // Deverá escrever '10' no console numero := numero + 30 escreva(numero) // Deverá escrever '40' no console . Portugol Studio . inteiro numero numero = 10 escreva(numero) // Deverá escrever '10' no console numero = numero + 30 escreva(numero) // Deverá escrever '40' no console . ",
+    "url": "/docs/estrutura/estrutura.html#exemplos-de-atribui%C3%A7%C3%A3o-de-valores-a-vari%C3%A1veis",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#exemplos-de-atribuição-de-valores-a-variáveis"
+  },"11": {
+    "doc": "Estrutura de Dados",
+    "title": "Vetores",
+    "content": "Vetores são variáveis com capacidade de armazenar 0 ou mais valores. São úteis em ocasiões em que é necessário executar uma lógica com múltiplos valores. A declaração de um vetor é semelhante a uma variável simples, com a diferença de que um número de posições deve ser informado entre colchetes, após o nome da variável. Exemplos de Declaração de Vetores . Portugol Studio e Portugol IDE . inteiro vetor[10] . VisualG . var meu_vetor: vetor [1..10] de inteiro . ",
+    "url": "/docs/estrutura/estrutura.html#vetores",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#vetores"
+  },"12": {
+    "doc": "Estrutura de Dados",
+    "title": "Constantes",
+    "content": "Assim como variáveis, constantes são caracterizadas por ter um nome e armazenar um valor em memória. A diferença é que, uma vez definido, o valor de uma constante não pode mais ser alterado durante o restante do programa. Outra diferença é que o valor de uma constante precisa ser necessariamente definido no momento da sua declaração. No caso de variáveis, cada variável pode ser declarada em uma linha e ter seu valor definido ou não no momento da declaração. Entre os dialetos de Portugol, não há um consenso sobre a palavra reservada (ou se deve-se usar uma palavra reservada). No Portugol IDE, usa-se a palavra literal, constante. No Portugol Studio, usa-se const. No VisualG, usa-se o operador de seta para a esquerda (&lt;-), exatamente o mesmo usado para atribuição de variáveis no Portugol IDE, e a atribuição é feita para uma variável, que passa a ser constante após a atribuição. ",
+    "url": "/docs/estrutura/estrutura.html#constantes",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#constantes"
+  },"13": {
+    "doc": "Estrutura de Dados",
+    "title": "Exemplos de Declaração de Constantes",
+    "content": "Portugol Studio . const inteiro c1 = 1 . Portugol IDE . constante inteiro c1 &lt;- 1 . VisualG . var c1: inteiro inicio c1 &lt;- 1 . ",
+    "url": "/docs/estrutura/estrutura.html#exemplos-de-declara%C3%A7%C3%A3o-de-constantes",
+    
+    "relUrl": "/docs/estrutura/estrutura.html#exemplos-de-declaração-de-constantes"
+  },"14": {
+    "doc": "Estrutura de Dados",
+    "title": "Estrutura de Dados",
+    "content": " ",
+    "url": "/docs/estrutura/estrutura.html",
+    
+    "relUrl": "/docs/estrutura/estrutura.html"
+  },"15": {
+    "doc": "Expressões",
+    "title": "Expressões",
+    "content": "Uma expressão é uma sequência de operadores e operandos que, quando avaliada, resulta em um valor. Em Portugol, as expressões podem ser compostas por variáveis, constantes, operadores e funções. ",
+    "url": "/docs/expressoes/expressoes.html",
+    
+    "relUrl": "/docs/expressoes/expressoes.html"
+  },"16": {
+    "doc": "IDEs",
+    "title": "Ambientes de Desenvolvimento Integrado (IDEs)",
+    "content": "São conhecidas as seguintes IDEs para Portugol: . | Portugol Studio; . | Portugol Webstudio; | . | VisualG; | Portugol IDE. | . Todas são gratuitas para uso ou download. ",
+    "url": "/docs/ides/ides.html#ambientes-de-desenvolvimento-integrado-ides",
+    
+    "relUrl": "/docs/ides/ides.html#ambientes-de-desenvolvimento-integrado-ides"
+  },"17": {
+    "doc": "IDEs",
+    "title": "Suporte a sistemas operacionais",
+    "content": "| Plataforma / Sistema Operacional | Implementação | Windows | Linux | Mac | . | Portugol Studio / Webstudio | Java / JavaScript | Sim | Sim | Sim | . | VisualG | Delphi | Sim | Não | Não | . | Portugol IDE | Java | Sim | Sim | Sim | . ",
+    "url": "/docs/ides/ides.html#suporte-a-sistemas-operacionais",
+    
+    "relUrl": "/docs/ides/ides.html#suporte-a-sistemas-operacionais"
+  },"18": {
+    "doc": "IDEs",
+    "title": "IDEs",
+    "content": " ",
+    "url": "/docs/ides/ides.html",
+    
+    "relUrl": "/docs/ides/ides.html"
+  },"19": {
+    "doc": "Home",
+    "title": "Sobre",
+    "content": "Este Wiki se dedica a discutir as variações de implementação da linguagem Portugol e tentar um padrão em uma versão canônica. Este projeto de padrões do Portugol é uma espécie de hobby, já que queria aprender Portugol nas horas vagas mas descobri que preciso pagar um curso pra isso. A ideia aqui é definir um ou mais padrões de linguagem, mas de forma que qualquer pessoa possa escrever um compilador ou um interpretador para ela. A linguagem tem, oficialmente, um criador da pseudolinguagem, Antonio Carlos Nicolodi e dois criadores das primeiras implementações: Claudio Morgado de Souza (VisuAlg), e António Manso, do Instituto Politécnico de Tomar. A primeira versão da pseudolinguagem, segundo a Wikipédia, data de 1980, com algum desenvolvimento até 1983. No entanto, os autores divergem quanto a padrões e uniformização, e entendo que pode não ser um objetivo estimular um padrão, mas é fato que as diferentes decisões de linguagem podem causar confusão, especialmente para quem está aprendendo a usar plataformas diferentes. Por ser uma linguagem mais voltada ao ensino de programação, as implementações mais populares são dentro de ambientes integrados de desenvolvimento (IDEs), como o VisuAlg, o Portugol Studio e o Portugol IDE. Nestes casos não há geração de binários, o código não é compilado. O que existe é a interpretação do código em um ambiente fácil de depuração (debug). No entanto, há outras implementações baseadas em C, usando Flex e Bison, para definir a gramática e juntá-la à implementação de cada instrução, estas como compiladores, ou seja, com geração de binários, e ainda transpiladores, que transformam um programa em Portugol em outro escrito em outra linguagem, como JavaScript, por exemplo. Aqui me dedico a estudar todas essas implementações, bem como mapear variações entre elas e, finalmente, propor um padrão para o desenvolvimento de futuras ferramentas. ",
+    "url": "/#sobre",
+    
+    "relUrl": "/#sobre"
+  },"20": {
+    "doc": "Home",
+    "title": "Dialetos de Portugol",
+    "content": "Portugol possui uma variedade de dialetos cujas diferenças só podem ser observadas ao se usar interpretadores e compiladores diferentes. Cada dialeto se parece com outras linguagens de programação que já existem, como C, Delphi e Java. Portanto, escrever um código em Portugol em uma IDE faz este código automaticamente incompatível com qualquer outra IDE. Um dos objetivos dessa documentação é também conseguir definir uma gramática natural, o mais próximo possível do português. Dialetos conhecidos de Portugol são: . ",
+    "url": "/#dialetos-de-portugol",
+    
+    "relUrl": "/#dialetos-de-portugol"
+  },"21": {
+    "doc": "Home",
+    "title": "VisuAlg",
+    "content": "VisuAlg é um dialeto baseado em Pascal, Delphi, Basic e Clipper. Um exemplo de implementação está abaixo: . algoritmo \"ola-mundo\" var a: inteiro inicio para a de 1 ate 20 faca escreva (a:3) fimpara fimalgoritmo . Espaços e indentação foram removidos para demonstrar, de maneira minimalista, o que um algoritmo em VisuAlg precisa ter para funcionar. O avaliador sintático é sensível a quebras de linha. Por exemplo, escrevendo o exemplo anterior numa linha só causa erros: . algoritmo \"ola-mundo\" var a: inteiro inicio para a de 1 ate 20 faca escreva (a:3) fimpara fimalgoritmo . Da mesma forma, certas expressões requerem palavras-chave e identificadores na mesma linha. Por exemplo, algoritmo &lt;identificador&gt;: . algoritmo \"ola-mundo\" // Levanta erro . algoritmo \"ola-mundo\" // Funciona sem erros . O ponto-e-vírgula é opcional. Indentações no começo de cada linha não são relevantes. VisuAlg tem o conceito de funções e procedimentos igual ao do Delphi: uma função é um segmento da aplicação que retorna valor ao final da sua execução. Um procedimento é um segmento da aplicação que nada retorna. Para executar uma função ou método sem argumentos, não é necessário o uso de parênteses. Por exemplo, o código abaixo escreve o valor de Pi corretamente: . algoritmo \"pi-teste\" inicio escreva (pi) fimalgoritmo . Bibliotecas de funções . VisuAlg tem duas bibliotecas de funções: uma para funções numéricas, algébricas e trigonométricas, e outra para funções para manipulação de cadeias de caracteres (strings). Funções numéricas, algébricas e trigonométricas . | Abs(expressão) - Retorna o valor absoluto de uma expressão do tipo inteiro ou real. Equivale a |expressão| na álgebra. | ArcCos(expressão) - Retorna o ângulo (em radianos) cujo cosseno é representado por expressão. | ArcSen(expressão) - Retorna o ângulo (em radianos) cujo seno é representado por expressão. | ArcTan(expressão) - Retorna o ângulo (em radianos) cuja tangente é representada por expressão. | Cos(expressão) - Retorna o cosseno do ângulo (em radianos) representado por expressão. | CoTan(expressão) - Retorna a co-tangente do ângulo (em radianos) representado por expressão. | Exp(base, expoente) - Retorna o valor de base elevado a expoente, sendo ambos expressões do tipo real. | GraupRad(expressão) - Retorna o valor em radianos, correspondente ao valor em graus representado por expressão. | Int(expressão) - Retorna a parte inteira do valor representado por expressão. | Log(expressão) - Retorna o logaritmo na base 10 do valor representado por expressão. | LogN(expressão) - Retorna o logaritmo neperiano (base e) do valor representado por expressão. | Pi - Retorna o valor 3.141592. | Quad(expressão) - Retorna quadrado do valor representado por expressão. | RadpGrau(expressão) - Retorna o valor em graus correspondente ao valor em radianos, representado por expressão. | RaizQ(expressão) - Retorna a raiz quadrada do valor representado por expressão. | Rand - Retorna um número real gerado aleatoriamente, maior ou igual a zero e menor que um. | RandI(limite) - Retorna um número inteiro gerado aleatoriamente, maior ou igual a zero e menor que limite. | Sen(expressão) - Retorna o seno do ângulo (em radianos) representado por expressão. | Tan(expressão) - Retorna a tangente do ângulo (em radianos) representado por expressão. | . Funções para manipulação de cadeias de caracteres (strings) . | Asc(s : caracter) - Retorna um inteiro com o código ASCII do primeiro caracter da expressão. | Carac(c : inteiro) - Retorna o caracter cujo código ASCII corresponde à expressão. | Caracpnum(c : caracter) - Retorna o inteiro ou real representado pela expressão. Corresponde a StrToInt() ou StrToFloat() do Delphi, Val() do Basic ou Clipper, etc. | Compr(c : caracter) - Retorna um inteiro contendo o comprimento (quantidade de caracteres) da expressão. | Copia(c : caracter; p, n : inteiro) - Retorna um valor do tipo caracter contendo uma cópia parcial da expressão, a partir do caracter p, contendo n caracteres. Os caracteres são numerados da esquerda para a direita, começando de 1. Corresponde a Copy() do Delphi, Mid$() do Basic ou Substr() do Clipper. | Maiusc(c : caracter) - Retorna um valor caracter contendo a expressão em maiúsculas. | Minusc(c : caracter) - Retorna um valor caracter contendo a expressão em minúsculas. | Numpcarac(n : inteiro ou real) - Retorna um valor caracter contendo a representação de n como uma cadeia de caracteres. Corresponde a IntToStr() ou FloatToStr() do Delphi, Str() do Basic ou Clipper. | Pos (subc, c : caracter) - Retorna um inteiro que indica a posição em que a cadeia subc se encontra em c, ou zero se subc não estiver contida em c. Corresponde funcionalmente a Pos() do Delphi, Instr() do Basic ou At() do Clipper, embora a ordem dos parâmetros possa ser diferente em algumas destas linguagens. | . ",
+    "url": "/#visualg",
+    
+    "relUrl": "/#visualg"
+  },"22": {
+    "doc": "Home",
+    "title": "Portugol Studio/LITE UNIVALI",
+    "content": "Portugol Studio é um dialeto baseado em Java, e escrito em Java. Um exemplo de implementação está abaixo: . programa { funcao inicio () { escreva(\"Olá Mundo!\\n\") } } . O mínimo que o dialeto requer é uma estrutura como a abaixo, que não executa coisa alguma mas funciona sem problemas: . programa { funcao inicio () { } } . Portugol Studio não é sensível a quebras de linha. O seguinte programa funciona sem problemas: . programa { funcao inicio () { escreva(\"Olá Mundo!\\n\") } } . Não há delimitação de linhas, como ponto-e-vírgula. ",
+    "url": "/#portugol-studiolite-univali",
+    
+    "relUrl": "/#portugol-studiolite-univali"
+  },"23": {
+    "doc": "Home",
+    "title": "Portugol IPT",
+    "content": "Portugol IPT é um dialeto de Portugol criado pelo professor António Manso, do Instituto Politécnico de Tomar, em Portugal. Possui seu próprio editor, escrito em Java. Um exemplo de implementação está abaixo: . inicio escrever \"Olá Mundo\" fim . Assim como VisuAlg, é sensível a quebras de linha. O seguinte programa causa erro: . inicio escrever \"Olá Mundo\" fim . ",
+    "url": "/#portugol-ipt",
+    
+    "relUrl": "/#portugol-ipt"
+  },"24": {
+    "doc": "Home",
+    "title": "G-Portugol",
+    "content": " ",
+    "url": "/#g-portugol",
+    
+    "relUrl": "/#g-portugol"
+  },"25": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"26": {
+    "doc": "Léxico",
+    "title": "Léxico",
+    "content": "Para fins de categorização, o léxico da linguagem será dividido em: . | [[Tipos de Dados]]; | [[Operadores]]; | [[Operações Básicas]]; | Demais Operações. | . Como cada IDE/compilador implementa um conjunto de instruções que não é unificado e padronizado entre si, devo unificar os ítens de cada uma dessas categorias, discutindo a funcionalidade e apontando as particularidades entre um ambiente e outro. ",
+    "url": "/docs/lexico/lexico.html",
+    
+    "relUrl": "/docs/lexico/lexico.html"
+  },"27": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Oeradores Aritiméticos",
+    "content": "Operadores aritméticos, como o nome sugere, vêm de um ramo clássico e elementar da matemática. Estão presentes em quase todas as linguagens de programação. Diferentemente da atribuição, todas as IDEs seguem o mesmo padrão, o da notação matemática para computadores, sendo a multiplicação representada por um asterisco (*) e a divisão representada por barra (/). Outra operação que é muito popular na aritmética computacional é a operação de módulo - o resto da divisão de um número por outro. Módulo é representada por um sinal de percentual (%). ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#oeradores-aritim%C3%A9ticos",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#oeradores-aritiméticos"
+  },"28": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Adição",
+    "content": "A adição funciona com pelo menos dois operandos, que podem ser inteiros e/ou reais. O resultado de uma adição é um número que corresponde à soma desses operados. Este número pode ser do tipo inteiro, se os dois operandos são do tipo inteiro, ou real, se pelo menos um operando é real. Exemplos . 12 + 34 // Retorna 46, `inteiro` 12 + 34.5 // Retorna 46.5, `real` 12.5 + 34.5 // Retorna 47, `real` . ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#adi%C3%A7%C3%A3o",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#adição"
+  },"29": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Subtração",
+    "content": "Assim como a adição, a subtração funciona com dois operandos, sendo o resultado um número que representa a quantidade subtraída do primeiro operando pelo segundo operando, portanto, a subtração não é uma operação comutativa (a ordem dos operandos normalmente provoca resultados diferentes). Exemplos . 25 - 15 // Retorna 10, `inteiro` 25 - 12.5 // Retorna 9.5, `real` 25.5 - 27 // Retorna -1.5, `real` 25.5 - 17.5 // Retorna 8, `real` . ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#subtra%C3%A7%C3%A3o",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#subtração"
+  },"30": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Multiplicação",
+    "content": "A multiplicação funciona com dois operandos e o resultado é igual à soma do primeiro operando um número de vezes igual ao segundo operando. A multiplicação é comutativa como a adição. Exemplos . 2 * 3 // Retorna 6, `inteiro` 2 * 5.5 // Retorna 11, `real` 7.5 * 4.5 // retorna 33.75, `real` . ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#multiplica%C3%A7%C3%A3o",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#multiplicação"
+  },"31": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Divisão",
+    "content": "A divisão funciona com dois operandos e o resultado é igual ao número que separa o primeiro operando em partes iguais um número de vezes igual ao segundo operando. Na divisão usando operandos inteiros, o resultado será inteiro, havendo ou não resto da divisão, e o resto da divisão não é obtido como resultado. Na divisão usando pelo menos um operando real, o resultado será real e poderá ter uma parte decimal infinita ou não. Exemplos . 10 / 5 // Retorna 2, `inteiro` 10 / 3.0 // Retorna 3.3333333333333335, `real` . ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#divis%C3%A3o",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#divisão"
+  },"32": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Módulo",
+    "content": "A operação de módulo funciona com dois operandos e o resultado é igual ao resto da divisão do primeiro operando pelo segundo. A operação de módulo trabalha apenas com números inteiros. Exemplos . 8 % 2 // Retorna 0, `inteiro` 5 % 3 // Retorna 2, `inteiro` . ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html#m%C3%B3dulo",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html#módulo"
+  },"33": {
+    "doc": "Operadores Aritiméticos",
+    "title": "Operadores Aritiméticos",
+    "content": " ",
+    "url": "/docs/expressoes/operadores-aritimeticos.html",
+    
+    "relUrl": "/docs/expressoes/operadores-aritimeticos.html"
+  },"34": {
+    "doc": "Operadores Lógicos",
+    "title": "Operadores Lógicos",
+    "content": "Operadores lógicos vêm de outro ramo da matemática: a álgebra, especialmente a álgebra elementar, que rege os princípios básicos da programação. Todas as linguagens de programação implementam, seja por formas primitivas ou sofisticadas, algum nível de lógica matemática. Em lógica matemática, a resolução de uma expressão pode resultar em apenas dois valores possíveis: verdadeiro e falso. Considerando que a implementação física de estruturas computacionais é feita considerando dois estados - passando corrente elétrica ou não em um circuito, estrutura magnetizada ou não em uma unidade de armazenamento de dados, etc -, pode-se dizer que a implementação física de um computador segue à risca os modelos clássicos de lógica matemática. Para cada operador apresentado, será discutido também os princípios de cada operação lógica. ",
+    "url": "/docs/expressoes/operadores-logicos.html",
+    
+    "relUrl": "/docs/expressoes/operadores-logicos.html"
+  },"35": {
+    "doc": "Operadores Lógicos",
+    "title": "Disjunção (E)",
+    "content": "Em lógica, uma operação de disjunção terá resultado verdadeiro se os dois operandos forem verdadeiros. O resultado da operação será falso se pelo menos um dos operandos for falso. Suponha duas sentenças: . “O universo é infinito” e “O ser humano é mortal”. Se construirmos uma frase juntando as duas primeiras frases: . “O universo é infinito e o ser humano é mortal.” . a frase é logicamente verdadeira. Agora, se montarmos uma frase modificando o primeiro operando (frase) para ser falso, teremos: . “O universo é finito e o ser humano é mortal.” . Por mais que “o ser humano é mortal” seja uma afirmação logicamente verdadeira, a afirmação como um todo é logicamente falsa. Da mesma forma, em Portugol, suponha dois operandos do tipo Lógico, universoInfinito e serHumanoMortal. Atribuímos a eles o valor verdadeiro e podemos usar o operador e da seguinte forma: . Portugol IDE . logico universoInfinito &lt;- verdadeiro, serHumanoMortal &lt;- verdadeiro escrever universoInfinito e serHumanoMortal . Portugol Studio . logico universoInfinito = verdadeiro, serHumanoMortal = verdadeiro escreva(universoInfinito e serHumanoMortal) . Resposta em Console . verdadeiro . Ainda, podemos definir outras duas variáveis, nenhumMamiferoBotaOvos (falso) e virusSaoMaioresQueBacterias (falso) e combiná-las a título de exemplo. Portugol IDE . logico universoInfinito &lt;- verdadeiro, serHumanoMortal &lt;- verdadeiro logico nenhumMamiferoBotaOvos &lt;- falso, virusSaoMaioresQueBacterias &lt;- falso escrever universoInfinito e serHumanoMortal escrever universoInfinito e nenhumMamiferoBotaOvos escrever virusSaoMaioresQueBacterias e serHumanoMortal escrever virusSaoMaioresQueBacterias e nenhumMamiferoBotaOvos . Portugol Studio . logico universoInfinito = verdadeiro, serHumanoMortal = verdadeiro logico nenhumMamiferoBotaOvos = falso, virusSaoMaioresQueBacterias = falso escreva(universoInfinito e serHumanoMortal) escreva(universoInfinito e nenhumMamiferoBotaOvos) escreva(virusSaoMaioresQueBacterias e serHumanoMortal) escreva(virusSaoMaioresQueBacterias e nenhumMamiferoBotaOvos) . Resposta em Console . verdadeiro falso falso falso . ",
+    "url": "/docs/expressoes/operadores-logicos.html#disjun%C3%A7%C3%A3o-e",
+    
+    "relUrl": "/docs/expressoes/operadores-logicos.html#disjunção-e"
+  },"36": {
+    "doc": "Operadores Lógicos",
+    "title": "Conjunção (OU)",
+    "content": "Em lógica, uma operação de conjunção terá resultado verdadeiro se pelo menos um dos dois operandos for verdadeiro. O resultado da operação será falso se ambos os operandos forem falsos. Supondo as mesmas sentenças usadas como exemplo no operador de disjunção: . “O universo é infinito” (verdadeiro) “O ser humano é mortal” (verdadeiro) “Nenhum mamífero bota ovos” (falso) “Vírus são maiores que bactérias” (falso) . Se montarmos uma frase da seguinte forma: . “[Ou] o universo é infinito, ou nenhum mamífero bota ovos.” . Por mais que “Nenhum mamífero bota ovos” seja uma afirmação falsa, o resultado combinado das duas afirmações ainda é verdadeiro, porque “O universo é infinito” é uma afirmação verdadeira. Portugol IDE . logico universoInfinito &lt;- verdadeiro, serHumanoMortal &lt;- verdadeiro logico nenhumMamiferoBotaOvos &lt;- falso, virusSaoMaioresQueBacterias &lt;- falso escrever universoInfinito ou serHumanoMortal escrever universoInfinito ou nenhumMamiferoBotaOvos escrever virusSaoMaioresQueBacterias ou serHumanoMortal escrever virusSaoMaioresQueBacterias ou nenhumMamiferoBotaOvos . Portugol Studio . logico universoInfinito = verdadeiro, serHumanoMortal = verdadeiro logico nenhumMamiferoBotaOvos = falso, virusSaoMaioresQueBacterias = falso escreva(universoInfinito ou serHumanoMortal) escreva(universoInfinito ou nenhumMamiferoBotaOvos) escreva(virusSaoMaioresQueBacterias ou serHumanoMortal) escreva(virusSaoMaioresQueBacterias ou nenhumMamiferoBotaOvos) . Resposta em Console . verdadeiro verdadeiro verdadeiro falso . ",
+    "url": "/docs/expressoes/operadores-logicos.html#conjun%C3%A7%C3%A3o-ou",
+    
+    "relUrl": "/docs/expressoes/operadores-logicos.html#conjunção-ou"
+  },"37": {
+    "doc": "Operadores Lógicos",
+    "title": "Negação (nao)",
+    "content": "Uma operação de negação, em lógica matemática, recebe um operando - que pode ser também uma expressão que resulta em um valor lógico, ou seja, verdadeiro ou falso - e inverte o seu valor. Portugol IDE . logico minhaVariavel &lt;- falso escrever nao minhaVariavel . Portugol Studio . logico minhaVariavel = falso escreva(nao(minhaVariavel)) . Resposta em Console . verdadeiro . ",
+    "url": "/docs/expressoes/operadores-logicos.html#nega%C3%A7%C3%A3o-nao",
+    
+    "relUrl": "/docs/expressoes/operadores-logicos.html#negação-nao"
+  },"38": {
+    "doc": "Tipos de Dados",
+    "title": "Inteiro",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | inteiro | Válida | Válida | Válida | . inteiro declara n variáveis inteiras, ou seja, sem parte decimal. As variáveis devem ser separadas por vírgula quando mais de uma variável é declarada na mesma linha. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#inteiro",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#inteiro"
+  },"39": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de uso",
+    "content": "Portugol IDE e Portugol Studio . inteiro a inteiro b, c, d . VisualG . var teste1: inteiro teste2, teste3, teste4: inteiro . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso"
+  },"40": {
+    "doc": "Tipos de Dados",
+    "title": "Real",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | real | Válida | Válida | Válida | . inteiro declara n variáveis reais, ou seja, com parte decimal. As variáveis devem ser separadas por vírgula quando mais de uma variável é declarada na mesma linha. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#real",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#real"
+  },"41": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de uso",
+    "content": "Portugol IDE e Portugol Studio . real r1 real r2, r3, r4 . VisualG . var teste1: real teste2, teste3, teste4: real . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-1",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-1"
+  },"42": {
+    "doc": "Tipos de Dados",
+    "title": "Caracter",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | caracter | Válida | Válida | Válida | . caracter declara n variáveis que são caracteres, popularmente conhecidas como string em outras linguagens de programação. São, basicamente, vetores de caracteres com algumas capacidades adicionais. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#caracter",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#caracter"
+  },"43": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de uso",
+    "content": "Portugol IDE e Portugol Studio . caracter r1 caracter r2, r3, r4 . VisualG . var teste1: caracter teste2, teste3, teste4: caracter . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-2",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-2"
+  },"44": {
+    "doc": "Tipos de Dados",
+    "title": "Texto / Cadeia / Caractere",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | texto | Inválida | Inválida | Válida | . | cadeia | Válida | Inválida | Inválida | . | caractere | Inválida | Válida | Inválida | . texto (no Portugol IDE), caractere (no VisualG, não confundir com caracter) ou cadeia (no Portugol Studio), declara n variáveis que são sequências de caracteres, popularmente conhecidas como string em outras linguagens de programação. São, basicamente, vetores de caracteres com algumas capacidades adicionais. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#texto--cadeia--caractere",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#texto--cadeia--caractere"
+  },"45": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de uso",
+    "content": "Portugol IDE . texto t1 texto t2, t3, t4 . Portugol Studio . cadeia t1 cadeia t2, t3, t4 . VisualG . var teste1: caractere teste2, teste3, teste4: caractere . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-3",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-3"
+  },"46": {
+    "doc": "Tipos de Dados",
+    "title": "Lógico / Logico",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | lógico | Inválida | Inválida | Válida | . | logico | Válida | Válida | Válida | . lógico declara n variáveis cujo valor pode ser verdadeiro ou falso, popularmente conhecido como boolean (Booleano) em outras linguagens de programação. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#l%C3%B3gico--logico",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#lógico--logico"
+  },"47": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de Uso",
+    "content": "Portugol IDE e Portugol Studio . logico l1 logico l1, l2, l3 . Portugol IDE . lógico l1 lógico l1, l2, l3 . VisualG . var teste1: logico teste2, teste3, teste4: logico . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-4",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-4"
+  },"48": {
+    "doc": "Tipos de Dados",
+    "title": "Vazio / Nada",
+    "content": "| Expressão | Portugol Studio | VisualG | Portugol IDE | . | vazio | Válida | Inválida | Inválida | . | nada | Inválida | Inválida | Inválida | . vazio (no Portugol Studio), ou nada (alguns compiladores) declara n variáveis do tipo vazio ou nada, respectivamente. Popularmente conhecido como void em linguagens de programação da família C, como C, C++ e C#. Normalmente não é usado para armazenar valores, e sim para definir o tipo de retorno de uma função ou método. ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#vazio--nada",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#vazio--nada"
+  },"49": {
+    "doc": "Tipos de Dados",
+    "title": "Exemplos de Uso",
+    "content": "Portugol Studio . vazio v1 vazio v1, v2, v3 . ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-5",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html#exemplos-de-uso-5"
+  },"50": {
+    "doc": "Tipos de Dados",
+    "title": "Tipos de Dados",
+    "content": " ",
+    "url": "/docs/tipos-de-dados/tipos-de-dados.html",
+    
+    "relUrl": "/docs/tipos-de-dados/tipos-de-dados.html"
+  }
+}
