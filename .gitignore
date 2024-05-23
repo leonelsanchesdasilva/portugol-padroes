@@ -1,0 +1,20 @@
+_site/*
+.jekyll-cache/*
+.jekyll-metadata
+.sass-cache/*
+.sass-cache
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
