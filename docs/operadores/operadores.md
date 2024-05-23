@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Expressões
+title: Operadores
 has_children: true
 ---
 
-# Expressões
+# Operadores
 
-Uma expressão é uma sequência de operadores e operandos que, quando avaliada, resulta em um valor. Em Portugol, as expressões podem ser compostas por variáveis, constantes, operadores e funções.
+Operadores são símbolos que representam operações matemáticas, lógicas ou de comparação. Eles são usados para manipular valores e variáveis em um programa.
