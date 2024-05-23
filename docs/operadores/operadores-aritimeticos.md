@@ -4,7 +4,7 @@ title: Operadores Aritiméticos
 parent: Expressões
 ---
 
-# Oeradores Aritiméticos
+# Operadores Aritiméticos
 
 Operadores aritméticos, como o nome sugere, vêm de um ramo clássico e elementar da matemática. Estão presentes em quase todas as linguagens de programação.
 

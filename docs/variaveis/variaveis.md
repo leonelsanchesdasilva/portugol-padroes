@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Estrutura de Dados
+title: Variáveis
+has_children: true
 ---
 
 # Variáveis

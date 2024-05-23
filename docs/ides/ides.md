@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IDEs
+has_children: true
 ---
 
 # Ambientes de Desenvolvimento Integrado (IDEs)

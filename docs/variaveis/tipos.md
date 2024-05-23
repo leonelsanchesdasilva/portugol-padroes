@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tipos de Dados
+parent: Variáveis
 ---
 
 # Inteiro
