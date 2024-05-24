@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operadores de Comparação
-parent: Expressões
+parent: Operadores
 ---
 
 # Operadores de Comparação

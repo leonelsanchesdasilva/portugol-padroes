@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operadores Aritiméticos
-parent: Expressões
+parent: Operadores
 ---
 
 # Operadores Aritiméticos

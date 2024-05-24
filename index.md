@@ -33,6 +33,6 @@ Portugol possui uma variedade de dialetos cujas diferenças só podem ser observ
 Um dos objetivos dessa documentação é também conseguir definir uma gramática natural, o mais próximo possível do português.
 
 Dialetos conhecidos de Portugol são:
-- VisuAlg
-- Portugol Studio
-- Portugol IPT
+- [VisuAlg]({{ site.baseurl }}{% link docs/ides/visualg.md %})
+- [Portugol Studio]({{ site.baseurl }}{% link docs/ides/portugol-studio.md %})
+- [Portugol IPT]({{ site.baseurl }}{% link docs/ides/portugol-ipt.md %})

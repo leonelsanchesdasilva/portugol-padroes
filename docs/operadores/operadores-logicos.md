@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operadores Lógicos
-parent: Expressões
+parent: Operadores
 ---
 
 # Operadores Lógicos

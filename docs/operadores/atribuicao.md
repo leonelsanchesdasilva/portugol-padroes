@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atribuição
-parent: Expressões
+parent: Operadores
 ---
 
 # Atribuição

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VisuALG
+title: VisuAlg
 parent: IDEs
 ---
 

@@ -19,5 +19,3 @@ Assim como VisuAlg, é sensível a quebras de linha. O seguinte programa causa e
 ```
 inicio escrever "Olá Mundo" fim
 ```
-
-## [G-Portugol](https://en.calameo.com/read/0004099991ff5c615c566)
