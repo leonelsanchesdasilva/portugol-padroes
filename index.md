@@ -40,32 +40,32 @@ Dialetos conhecidos de Portugol são:
 ## Implementações conhecidas de compiladores, interpretadores e ambientes de desenvolvimento
 
 ### VisuAlg
-- https://github.com/rbonichon/portugol
+- [rbonichon](https://github.com/rbonichon/portugol)
 
 ### Portugol Studio
-- https://github.com/UNIVALI-LITE/Portugol-Studio
-- https://github.com/dgadelha/Portugol-Webstudio
-- https://github.com/erickweil/portugolweb
-- https://github.com/bernardo-bruning/portugol-core-llvm
+- [Portugol Studio / UNIVALI](https://github.com/UNIVALI-LITE/Portugol-Studio)
+- [Portugol WebStudio](https://github.com/dgadelha/Portugol-Webstudio)
+- [Portugol Web / Mobile](https://github.com/erickweil/portugolweb)
+- [Portugol llvm](https://github.com/bernardo-bruning/portugol-core-llvm)
 
 ### Portugol IPT
-- https://github.com/iptomar/portugol
+- [iptomar](https://github.com/iptomar/portugol)
 
 ### Outros
-- https://github.com/vinyanalista/portugol
-- https://github.com/HappyHippyHippo/portugol
-- https://github.com/drbeco/portugol
-- https://github.com/airesvsg/portugol-editor
-- https://github.com/moacir/jspt
-- https://github.com/jgbrittos/PortugolC
-- https://github.com/AlbertoMonteiro/Portugol-with-CSharp
-- https://github.com/JonSilvestrini/PortugolOO-Core
-- https://github.com/flavio7co/portugol-c
-- https://github.com/alexgarzao/gogpt-interpreter
-- https://github.com/diego-miranda-ng/portugol_interpreter
-- https://github.com/CarlosAlbertoUFS/Portugol
-- https://github.com/viclen/portugol-cpp
-- https://github.com/adell/portugol
-- https://github.com/omadson/pytugol
-- https://github.com/rafaelgou/gpt
-- https://github.com/Projeto-Mapler 
+- [vonyanalista](https://github.com/vinyanalista/portugol)
+- [HappyHippyHippo](https://github.com/HappyHippyHippo/portugol)
+- [drbecco](https://github.com/drbeco/portugol)
+- [airesvsg](https://github.com/airesvsg/portugol-editor)
+- [moacir jspt](https://github.com/moacir/jspt)
+- [jgbritto PortugolC](https://github.com/jgbrittos/PortugolC)
+- [Portugol CSharp](https://github.com/AlbertoMonteiro/Portugol-with-CSharp)
+- [Portugol 00](https://github.com/JonSilvestrini/PortugolOO-Core)
+- [flavio7c0 Portugol C](https://github.com/flavio7co/portugol-c)
+- [gogpt](https://github.com/alexgarzao/gogpt-interpreter)
+- [diego miranda](https://github.com/diego-miranda-ng/portugol_interpreter)
+- [carlos alberto](https://github.com/CarlosAlbertoUFS/Portugol)
+- [Portugol CPP](https://github.com/viclen/portugol-cpp)
+- [adell](https://github.com/adell/portugol)
+- [pytugol](https://github.com/omadson/pytugol)
+- [rafaelgou](https://github.com/rafaelgou/gpt)
+- [Projeto Mapler](https://github.com/Projeto-Mapler)

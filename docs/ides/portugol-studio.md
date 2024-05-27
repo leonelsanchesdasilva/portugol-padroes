@@ -8,7 +8,7 @@ parent: IDEs
 
 Portugol Studio é um dialeto baseado em Java, e escrito em Java. Um exemplo de implementação está abaixo:
 
-```
+```java
 programa
 {
     funcao inicio ()
