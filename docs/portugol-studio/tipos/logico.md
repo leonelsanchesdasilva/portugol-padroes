@@ -5,11 +5,7 @@ parent: Tipos
 grand_parent: Portugol Studio
 ---
 
-
-Tipo Lógico
-
-Tipo Lógico
-===========
+# Lógico
 
 Em determinadas situações faz-se necessário trabalhar com informações do tipo verdadeiro e falso. Este tipo de necessidade aparece muito em operações relacionais para exibir se determinada condição é verdadeira ou falsa. Por exemplo: como poderíamos verificar se um número digitado pelo usuário é maior que zero? Através de uma variável do tipo logico. Uma variável do tipo logico é aquela que contém um tipo de dado, usado em operações lógicas, que possui somente dois valores, que são consideradas pelo Portugol como verdadeiro e falso.
 

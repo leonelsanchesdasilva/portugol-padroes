@@ -5,11 +5,7 @@ parent: Tipos
 grand_parent: Portugol Studio
 ---
 
-
-Tipo Vazio
-
-Tipo Vazio
-==========
+# Vazio
 
 Vazio é usado para o resultado de uma função que retorna normalmente, mas não fornece um valor de resultado ao seu chamada.
 Normalmente, essas funções de tipo vazio são chamados por seus efeitos colaterais, como a realização de alguma tarefa ou escrevendo os seus parâmetros na saída de dados.

@@ -5,6 +5,8 @@ parent: Expressões
 grand_parent: Portugol Studio
 ---
 
+# Relacional
+
 Vamos imaginar que você precise verificar se um número digitado pelo usuário é positivo ou negativo. Como poderíamos verificar isto? Através de uma operação relacional. As operações relacionais também são nossas conhecidas da Matemática. Em algoritmos, os operadores relacionais são importantes, pois permitem realizar comparações que terão como resultado um valor lógico (verdadeiro ou falso).
 
 Os símbolos que usamos para os operadores também mudam um pouco em relação ao que usamos no papel. Os símbolos para diferente, maior ou igual e menor ou igual mudam pois não existem nos teclados convencionais. A tabela a seguir mostra todas as operações relacionais e os símbolos que o Portugol utiliza.

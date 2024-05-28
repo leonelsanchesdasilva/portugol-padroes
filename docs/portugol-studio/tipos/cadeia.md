@@ -5,6 +5,8 @@ parent: Tipos
 grand_parent: Portugol Studio
 ---
 
+# Cadeia
+
 Em algumas situações precisa-se armazenar em uma variável, um texto ou uma quantidade grande de caracteres. Para armazenar este tipo de conteúdo, utiliza-se uma variável do tipo cadeia. Cadeia é uma sequência ordenada de caracteres (símbolos) escolhidos a partir de um conjunto pré-determinado.
 
 A sintaxe é a palavra reservada cadeia seguida do nome da variavel

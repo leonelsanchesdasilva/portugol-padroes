@@ -5,6 +5,8 @@ parent: Expressões
 grand_parent: Portugol Studio
 ---
 
+# Atribuição
+
 Quando criamos uma variável, simplesmente separamos um espaço de memória para um conteúdo. Para especificar esse conteúdo, precisamos de alguma forma determinar um valor para essa variável. Para isso, usamos a operação de atribuição.
 
 A instrução de atribuição serve para alterar o valor de uma variável. Ao fazer isso dizemos que estamos atribuindo um novo valor a esta variável. A atribuição de valores pode ser feita de variadas formas. Pode-se atribuir valores através de constantes, de dados digitados pelo usuário (Leia) ou mesmo através de comparações e operações com outras variáveis já existentes. Neste último caso, após a execução da operação, a variável conterá o valor resultante da operação. O sinal de igual "=" é o símbolo da atribuição no Portugol. A variável a esquerda do sinal de igual recebe o valor das operações que estiverem à direita.
