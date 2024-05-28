@@ -1,15 +1,9 @@
 ---
 layout: default
-title: relacional
-parent: expressao
-has_children: true
+title: Relacional
+parent: Expressões
+grand_parent: Portugol Studio
 ---
-
-
-Operações Relacionais
-
-Operações Relacionais
-=====================
 
 Vamos imaginar que você precise verificar se um número digitado pelo usuário é positivo ou negativo. Como poderíamos verificar isto? Através de uma operação relacional. As operações relacionais também são nossas conhecidas da Matemática. Em algoritmos, os operadores relacionais são importantes, pois permitem realizar comparações que terão como resultado um valor lógico (verdadeiro ou falso).
 

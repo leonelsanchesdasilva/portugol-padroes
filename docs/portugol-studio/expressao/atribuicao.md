@@ -1,15 +1,9 @@
 ---
 layout: default
-title: atribuicao
-parent: expressao
-has_children: true
+title: Atribuicao
+parent: Expressões
+grand_parent: Portugol Studio
 ---
-
-
-Operação de Atribuição
-
-Atribuições
-===========
 
 Quando criamos uma variável, simplesmente separamos um espaço de memória para um conteúdo. Para especificar esse conteúdo, precisamos de alguma forma determinar um valor para essa variável. Para isso, usamos a operação de atribuição.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: index
-parent: expressao
+title: Expressões
+parent: Portugol Studio
 has_children: true
 ---
 

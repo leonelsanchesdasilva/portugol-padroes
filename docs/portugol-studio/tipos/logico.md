@@ -1,8 +1,8 @@
 ---
 layout: default
-title: logico
-parent: tipos
-has_children: true
+title: Lógico
+parent: Tipos
+grand_parent: Portugol Studio
 ---
 
 

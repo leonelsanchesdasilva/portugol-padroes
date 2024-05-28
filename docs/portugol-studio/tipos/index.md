@@ -1,16 +1,9 @@
 ---
 layout: default
-title: index
-parent: tipos
+title: Tipos
+parent: Portugol Studio
 has_children: true
 ---
-
-
-Tipos
-
-Tipos
-=====
-
 Quais são os tipos de dados que o computador pode armazenar?
 
 Se pararmos para pensar que tudo que o computador compreende é representado através de Zeros e Uns. Então a resposta é Zero e Um. Certo? Certo! Mas como então o computador pode exibir mensagens na tela, apresentar ambientes gráficos cheios de janelas, compreender o significado da teclas do teclado ou dos cliques do mouse.

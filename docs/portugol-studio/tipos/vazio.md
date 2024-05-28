@@ -1,8 +1,8 @@
 ---
 layout: default
-title: vazio
-parent: tipos
-has_children: true
+title: Vazio
+parent: Tipos
+grand_parent: Portugol Studio
 ---
 
 

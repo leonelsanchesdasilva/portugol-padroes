@@ -2,7 +2,6 @@
 layout: default
 title: constante
 parent: Declarações
-has_children: true
 ---
 
 Existem algumas situações em que precisamos que um determinado parâmetro não tenha seu valor alterado durante a execução do programa. Para isso, existem as constantes. Constante é um identificador cujo valor associado não pode ser alterado pelo programa durante a sua execução.
@@ -25,7 +24,6 @@ programa
         const caracter VOGAIS[5] = {'a','e','i','o','u'}
 
         //Matriz constante local do tipo de dado inteiro
-        const inteiro TECLADO_NUMERICO[][] = {{1,2,3},{4,5,6},{7,8,9}}
     }
 }
 

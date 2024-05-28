@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portugol Studio
+title: Portugol Studio IDE
 parent: IDEs
 has_children: true
 ---

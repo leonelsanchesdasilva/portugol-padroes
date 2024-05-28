@@ -1,15 +1,9 @@
 ---
 layout: default
-title: caracter
-parent: tipos
-has_children: true
+title: Caracter
+parent: Tipos
+grand_parent: Portugol Studio
 ---
-
-
-Tipo Caracter
-
-Tipo Caracter
-=============
 
 Em determinadas situações faz-se necessário o uso de símbolos, letras ou outro tipo de conteúdo. Por exemplo, em um jogo da velha, seriam necessárias variáveis que tivessem conteúdos de 'X' e '0'. Para este tipo de situação, existe a variável do tipo caracter. A variável do tipo caracter é aquela que contém uma informação composta de apenas UM carácter alfanumérico ou especial. Exemplos de caracteres são letras, números, pontuações e etc.
 
