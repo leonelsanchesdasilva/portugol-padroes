@@ -2,6 +2,7 @@
 layout: default
 title: Portugol Studio
 parent: IDEs
+has_children: true
 ---
 
 # [Portugol Studio/LITE UNIVALI](http://lite.acad.univali.br/portugol/)
