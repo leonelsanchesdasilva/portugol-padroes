@@ -1,8 +1,11 @@
 ---
 layout: default
-title: constante
+title: Constante
 parent: Declarações
+grand_parent: Portugol Studio
 ---
+
+# Constante
 
 Existem algumas situações em que precisamos que um determinado parâmetro não tenha seu valor alterado durante a execução do programa. Para isso, existem as constantes. Constante é um identificador cujo valor associado não pode ser alterado pelo programa durante a sua execução.
 

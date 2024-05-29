@@ -36,8 +36,7 @@ A sintaxe é bem fácil, se coloca os operandos entre o sinal de mais.
 
 Note que você poderá atribuir o resultado desta operação a uma variável, ou mesmo executar diretamente através do comando escreva.
 
-Propriedades importantes
-------------------------
+### Propriedades importantes
 
 * **Comutatividade**
  
@@ -53,8 +52,7 @@ Propriedades importantes
 	+ 2 + (-2) = 0
 	+ (-999) + 999 = 0
 
-Tabela de compatibilidade de tipos da operação de adição
---------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de adição
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -81,12 +79,11 @@ Subtração é uma operação matemática que indica quanto é um valor numéric
 
 A subtração é o mesmo que a adição por um número de sinal inverso. É, portanto, a operação inversa da adição. Seus elementos estão demonstrados na figura a seguir:
 
-![Imagem explicando como funciona uma subtração](../../../../recursos/imagens/${tema}/operacao_de_subtracao.png)
+![Imagem explicando como funciona uma subtração](../../../../recursos/imagens/Portugol/operacao_de_subtracao.png)
 
 Note que você poderá atribuir o resultado desta operação a uma variável, ou mesmo executar diretamente através do comando escreva.
 
-Propriedades importantes
-------------------------
+### Propriedades importantes
 
 * **Fechamento**
  A diferença de dois números reais será sempre um número real.
@@ -95,8 +92,7 @@ Propriedades importantes
 * **Anulação** 
  Quando o minuendo é igual ao subtraendo, a diferença será 0 (zero).
 
-Tabela de compatibilidade de tipos da operação de subtração
------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de subtração
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -128,12 +124,11 @@ programa
 
 Na sua forma mais simples a multiplicação é uma forma de se adicionar uma quantidade finita de números iguais. O resultado da multiplicação de dois números é chamado produto. Os números sendo multiplicados são chamados de coeficientes ou operandos, e individualmente de multiplicando e multiplicador, conforme figura abaixo:
 
-![Imagem explicando como funciona uma multiplicação](../../../../recursos/imagens/${tema}/operacao_de_multiplicacao.png)
+![Imagem explicando como funciona uma multiplicação](../../../../recursos/imagens/Portugol/operacao_de_multiplicacao.png)
 
 Note que você poderá atribuir o resultado desta operação a uma variável, ou mesmo executar diretamente através do comando escreva.
 
-Propriedades importantes
-------------------------
+### Propriedades importantes
 
 * **Comutatividade**
  A ordem dos fatores não altera o resultado da operação. Assim, se x \* y = z, logo y \* x = z.
@@ -150,8 +145,7 @@ Propriedades importantes
 * **Anulação**
  O fator 0 (zero) anula o produto. Assim, x \* 0 = 0, e y \* 0 = 0, com x diferente de y.
 
-Tabela de compatibilidade de tipos da operação de multiplicação
----------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de multiplicação
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -183,12 +177,11 @@ programa
 
 Divisão é a operação matemática inversa da multiplicação. É utilizada para, como o próprio nome sugere, dividir, repartir, separar algum valor em partes iguais. Seus elementos estão demonstrados na figura a seguir:
 
-![Imagem explicando como funciona uma divisão](../../../../recursos/imagens/${tema}/operacao_de_divisao.png)
+![Imagem explicando como funciona uma divisão](../../../../recursos/imagens/Portugol/operacao_de_divisao.png)
 
 Note que você poderá atribuir o resultado desta operação a uma variável, ou mesmo executar diretamente através do comando escreva.
 
-Propriedades importantes
-------------------------
+### Propriedades importantes
 
 * **Reintegradora**
 Multiplicando o quociente pelo divisor se obtém o dividendo. Assim, 2 \* 10 = 20.
@@ -196,8 +189,7 @@ Multiplicando o quociente pelo divisor se obtém o dividendo. Assim, 2 \* 10 = 2
 * **Associatividade**
 Quando o divisor for 1, o dividendo e o quociente são iguais. Assim, 20 / 1 = 20.
 
-Tabela de compatibilidade de tipos da operação de divisão
----------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de divisão
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -233,8 +225,7 @@ Dados dois números a (o dividendo) e b o divisor, a modulo b (a % b) é o resto
 
 Note que você poderá atribuir o resultado desta operação a uma variável, ou mesmo executar diretamente através do comando escreva.
 
-Tabela de compatibilidade de tipos da operação de módulo
---------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de módulo
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |

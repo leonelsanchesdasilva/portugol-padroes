@@ -1,15 +1,12 @@
 ---
 layout: default
-title: matriz
+title: Matriz
 parent: Declarações
-has_children: true
+grand_parent: Portugol Studio
 ---
 
+# Declaração de Matriz
 
-Declaração de Matriz
-
-Declaração de Matriz
-====================
 
 Para a melhor compreensão do conceito de matriz, é interessante o entendimento de Vetores. Os vetores permitem solucionar uma série de problemas onde é necessário armazenamento de informações, porém ele possui a restrição de ser linear. Por exemplo, imagine que queremos armazenar três notas obtidas por quatro alunos diferentes. Neste caso, existe outra estrutura mais adequada para armazenar os dados. A matriz.
 

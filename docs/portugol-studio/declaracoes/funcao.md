@@ -1,9 +1,11 @@
 ---
 layout: default
-title: funcao
+title: Funcao
 parent: Declarações
-has_children: true
+grand_parent: Portugol Studio
 ---
+
+# Função
 
 Se lhe fosse solicitado um algoritmo para preencher uma matriz, você o resolveria correto? Porém, se ao invés de uma matriz fossem solicitadas dez matrizes? Concordamos que o algoritmo ficaria muito cansativo e repetitivo. Mas, e se pudéssemos repetir o mesmo procedimento, quantas vezes necessário, o escrevendo apenas uma vez? Nós podemos. Para isso, usamos uma função. Função consiste em uma porção de código que resolve um problema muito específico, parte de um problema maior.
 

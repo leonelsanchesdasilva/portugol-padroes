@@ -27,8 +27,7 @@ Os números são escritos da seguinte forma:
 
 As vantagens do uso do complemento de 2 são: existe somente um zero e as regras para soma e subtração são as mesmas. A desvantagem é o fato de ser um código assimétrico.
 
-Tabela exemplo do complemento de dois para um binário inteiro de 4 bits
------------------------------------------------------------------------
+### Tabela exemplo do complemento de dois para um binário inteiro de 4 bits
 
 | Complemento de dois | Decimal |
 | --- | --- |
@@ -64,8 +63,7 @@ Muito semelhante ao operador lógico 'e', o operador binário AND, ou conjunçã
 
 Sua sintaxe é o operador '&' entre os dois inteiros.
 
-Tabela de compatibilidade de tipos da operação de Bitwise AND
--------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de Bitwise AND
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -97,8 +95,7 @@ O operador binário OR, ou disjunção binária devolve um bit 1 sempre que pelo
 
 Sua sintaxe é o operador '|' (Digito de Canalização (em inglês: pipe)) entre os dois inteiros.
 
-Tabela de compatibilidade de tipos da operação de Bitwise OR
-------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de Bitwise OR
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -128,8 +125,7 @@ Muito semelhante ao operador lógico 'nao', o operador unário NOT, ou negação
 
 Sua sintaxe é o operador '~' entre os dois inteiros.
 
-Tabela de compatibilidade de tipos da operação de Bitwise NOT
--------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de Bitwise NOT
 
 | Operando | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- |
@@ -161,8 +157,7 @@ O operador binário XOR, ou disjunção binária exclusiva devolve um bit '1' se
 
 Sua sintaxe é o operador '^' entre os dois inteiros
 
-Tabela de compatibilidade de tipos da operação de Bitwise XOR
--------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de Bitwise XOR
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |
@@ -185,28 +180,27 @@ programa
 
 Os operadores de Bitwise Shift são utilizados para deslocar bits de um número inteiro para direita ou para a esquerda.
 
-Left Shift
-----------
+### Left Shift
 
 Em um deslocamento aritmético à esquerda, os bits são deslocados para a esquerda e zeros são acrescentados à direita como demonstra a imagem: 
 
 ![Imagem explicando o que ocorre quando o comando left-shift é utilizado](../../../../recursos/imagens/topicos/linguagem/operacao/left-shift.png)
+
 Sua sintaxe respectivamente o valor inteiro, o operador '<<' e o numero de bits a ser deslocado
 
 O número de bits a ser deslocado equivale a quantidade de vezes que o valor será multiplicado por 2.
 
-Right Shift
------------
+### Right Shift
 
 Em um deslocamento aritmético para a direita, o bit de sinal é deslocado da esquerda, preservando, assim, o sinal do operando como demonstra a imagem:
 
 ![Imagem explicando o que ocorre quando o comando right-shift é utilizado](../../../../recursos/imagens/topicos/linguagem/operacao/right-shift.png)
+
 Sua sintaxe respectivamente o valor inteiro, o operador '>>' e o numero de bits a ser deslocado
 
 O número de bits a ser deslocado equivale a quantidade de vezes que o valor será dividido por 2, sempre resultando em um valor inteiro.
 
-Tabela de compatibilidade de tipos da operação de Bitwise SHIFT
----------------------------------------------------------------
+### Tabela de compatibilidade de tipos da operação de Bitwise SHIFT
 
 | Operando Esquerdo | Operando Direito | Tipo Resultado | Exemplo | Resultado |
 | --- | --- | --- | --- | --- |

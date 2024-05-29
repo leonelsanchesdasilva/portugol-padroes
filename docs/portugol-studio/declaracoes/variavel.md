@@ -1,9 +1,12 @@
 ---
 layout: default
-title: variavel
+title: Variavel
 parent: Declarações
-has_children: true
+grand_parent: Portugol Studio
 ---
+
+# Variável
+
 O computador armazena os dados que são utilizados nos programas e algoritmos na memória de trabalho ou memória RAM (Random Access Memory). A memória do computador é sequencial e dividida em posições. Cada posição de memória permite armazenar uma palavra (conjunto de bytes) de informação e possui um número que indica o seu endereço.
 
 Vamos supor que queremos fazer um programa que solicita para um usuário digitar a sua idade e exibe a ele quantos anos faltam para ele atingir 100 anos de idade. Precisaremos armazenar a idade do usuário para depois realizar o cálculo 100 - idade\_usuario e depois armazenar também o resultado.

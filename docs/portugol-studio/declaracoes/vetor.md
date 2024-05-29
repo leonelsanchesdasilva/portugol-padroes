@@ -1,9 +1,11 @@
 ---
 layout: default
-title: vetor
+title: Vetor
 parent: Declarações
-has_children: true
+grand_parent: Portugol Studio
 ---
+
+# Vetor
 
 Armazenar a nota de um aluno é possível utilizando uma variável do tipo real. Mas para armazenar as notas de todos os alunos de uma turma? Seria necessário criar uma variável para cada aluno? E se cada turma tiver quantidade de alunos variáveis? E os nomes de cada um dos alunos? Poderíamos armazenar estes dados em variáveis, porém o controle de muitas variáveis em um programa não é uma solução prática. Ao invés disso, utiliza-se uma estrutura de dados que agrupa todos estes valores em um nome único. Esta estrutura chama-se vetor.
 
