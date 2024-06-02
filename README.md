@@ -1,35 +1,34 @@
 # Padrões de Portugol
 
-Repositório voltado a discutir padrões des linguagens da família Portugol.
+O Portugol é amplamente utilizado na educação de tecnologia da informação em vários países de língua portuguesa. No entanto, não há uma unificação dos dialetos de Portugol: cada iniciativa tem sua própria sintaxe, tipos de dados, operadores e funções internas.
 
-## Motivação
+Repositório dedicado a discutir padrões das linguagens da família Portugol, com foco na catalogação de dialetos, orientação para implementação de compiladores, interpretadores e transpiladores, além de mapear as iniciativas atuais de Portugol.
 
-Portugol tem uma grande aderência na educação de tecnologia de informação de vários países de língua portuguesa. O problema é que não existe uma unificação dos dialetos de Portugol: cada iniciativa tem sua forma de sintaxe seus tipos de dados, operadores e funções internas. 
+## Estrutura do Projeto
 
-Esse repositório tem como objetivo catalogar as diferenças entre os dialetos, bem como orientar formas de implementação de compiladores, interpretadores e transpiladores, bem como mapear as iniciativas atuais de Portugol. [Mais informações na Wiki](https://github.com/leonelsanchesdasilva/portugol-padroes/wiki). 
+O projeto é composto por arquivos markdown, organizados da seguinte forma:
+- **Dialetos**: Cada dialeto de Portugol tem sua própria pasta.
+- **Comparação de Linguagens**: Seção dedicada à comparação entre os diferentes dialetos.
 
-## Implementações conhecidas de compiladores, interpretadores e ambientes de desenvolvimento
+## Compilação
 
-- https://github.com/UNIVALI-LITE/Portugol-Studio
-- https://github.com/dgadelha/Portugol-Webstudio
-- https://github.com/iptomar/portugol
-- https://github.com/vinyanalista/portugol
-- https://github.com/HappyHippyHippo/portugol
-- https://github.com/drbeco/portugol
-- https://github.com/airesvsg/portugol-editor
-- https://github.com/moacir/jspt
-- https://github.com/rbonichon/portugol
-- https://github.com/erickweil/portugolweb
-- https://github.com/jgbrittos/PortugolC
-- https://github.com/AlbertoMonteiro/Portugol-with-CSharp
-- https://github.com/JonSilvestrini/PortugolOO-Core
-- https://github.com/flavio7co/portugol-c
-- https://github.com/alexgarzao/gogpt-interpreter
-- https://github.com/bernardo-bruning/portugol-core-llvm
-- https://github.com/diego-miranda-ng/portugol_interpreter
-- https://github.com/CarlosAlbertoUFS/Portugol
-- https://github.com/viclen/portugol-cpp
-- https://github.com/adell/portugol
-- https://github.com/omadson/pytugol
-- https://github.com/rafaelgou/gpt
-- https://github.com/Projeto-Mapler 
+Este projeto é compilável via Jekyll para uma página GitHub Pages e utiliza o just-the-docs como tema. 
+
+### Instalação do Jekyll e Dependências
+
+Para compilar o projeto localmente, siga os passos abaixo:
+
+1. **Instale Ruby**: [Instruções para instalação](https://www.ruby-lang.org/pt/documentation/installation/).
+2. **Instale o Jekyll**:
+   ```sh
+   gem install bundler jekyll
+   ```
+3. **Instale as dependências**:
+   ```sh
+   bundle install
+   ```
+4. **Execute o servidor Jekyll**:
+   ```sh
+   bundle exec jekyll serve
+   ```
+5. **Acesse o site**: `http://localhost:4000`.
